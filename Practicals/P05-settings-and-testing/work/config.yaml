@@ -1,0 +1,13 @@
+data:
+  path: ../data/delivery_times.csv
+  target: delivery_min
+  features:
+  - distance_km
+  - prep_time_min
+  - traffic_level
+  - rain
+split:
+  test_size: 0.3
+  random_state: 42
+model:
+  type: LinearRegression

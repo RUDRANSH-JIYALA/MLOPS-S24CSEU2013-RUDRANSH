@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python test/cache
+.pytest_cache/
+.coverage
+
+# Generated model files
+*.joblib
+
+# Generated PDFs
+*.pdf

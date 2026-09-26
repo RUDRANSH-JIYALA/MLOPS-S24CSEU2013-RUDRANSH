@@ -26,6 +26,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas numpy scikit-learn joblib pyyaml pytest
 
+      - name: Train P04 model
+        working-directory: Practicals/P04-from-notebook-to-package
+        run: |
+          python work/train.py
+
       - name: Run P05 tests
         working-directory: Practicals/P05-settings-and-testing
         run: |
